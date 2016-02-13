@@ -1,0 +1,30 @@
+{
+  "name": "pb-run",
+  "main": "./lib/pb-run",
+  "version": "1.0.1",
+  "description": "An atom package to run pebble commands.",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "repository": "https://github.com/jneubrand/pb-run",
+  "keywords": [
+    "screenshot",
+    "command",
+    "pebble",
+    "clean",
+    "watch",
+    "sdk",
+    "c"
+  ],
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.3"
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@import "ui-variables";
+.pb-run.output-view {
+    overflow: auto;
+    max-height: 30vh;
+}
+.pb-run-watch:not([enabled]) {
+    display: none;
+}
+.pb-run-container-visible ~ atom-panel .pb-run-watch {
+    text-shadow: 0 0 3px @text-color-subtle;
+}
