@@ -1,7 +1,7 @@
 {
   "name": "pb-run",
   "main": "./lib/pb-run",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An atom package to run pebble commands.",
   "license": "MIT",
   "engines": {
